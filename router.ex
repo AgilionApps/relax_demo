@@ -1,6 +1,7 @@
 defmodule RelaxDemo.Router do
   use Relax.Router
 
+  plug :match
   plug :dispatch
 
   version :v1 do
